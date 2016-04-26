@@ -1,0 +1,53 @@
+===================== RESTART: D:/Python27/cangku/111.py =====================
+['src="http://ww4.sinaimg.cn/mw600/005vbOHfgw1f3acwtuesuj30go0go751.jpg', 'src="http://ww4.sinaimg.cn/mw600/005vbOHfgw1f3acrwigmcj30go0m8q7h.jpg', 'src="http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abk6x2wjj20u018gtkh.jpg', 'src="http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abjjzwwvj20qo0zkwoc.jpg', 'src="http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abieu09xj20nt0zkad3.jpg', 'src="http://ww3.sinaimg.cn/mw600/6469180ajw1f3abpwdlj9j20m80tngtg.jpg', 'src="http://ww4.sinaimg.cn/mw600/6cca1403jw1f3a9k8cvxaj20es0g93zl.jpg', 'src="http://ww3.sinaimg.cn/mw600/6cca1403jw1f3a896vj8cj20cc0g7js5.jpg', 'src="http://ww1.sinaimg.cn/mw600/6cca1403jw1f3a81lkop1j20gk0eowfg.jpg', 'src="http://ww4.sinaimg.cn/mw600/6cca1403jw1f1hlwnqugwj20ga0hmq3n.jpg', 'src="http://ww1.sinaimg.cn/mw600/6cca1403jw1f1hlqlgik5j20g90hkgmn.jpg', 'src="http://ww1.sinaimg.cn/mw600/6cca1403jw1f1hlkl11rlj20ge0ggwfc.jpg', 'src="http://ww3.sinaimg.cn/mw600/6cca1403jw1f1hldrj7yej20g70h1dh1.jpg', 'src="http://ww2.sinaimg.cn/mw600/6cca1403jw1f1hl7shvk9j20os0h53zt.jpg', 'src="http://s.jandan.com/static/gg/tee.jpg']
+>>> 
+================== RESTART: D:/Python27/cangku/¼åµ°ÃÃ×Ó.py ==================
+
+Traceback (most recent call last):
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 18, in <module>
+    print gitimg(html)
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 11, in gitimg
+    urllib.urlretrieve(imgurl,'0%s.jpg' % x)
+NameError: global name 'urllib' is not defined
+>>> 
+================== RESTART: D:/Python27/cangku/¼åµ°ÃÃ×Ó.py ==================
+
+Traceback (most recent call last):
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 18, in <module>
+    print gitimg(html)
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 11, in gitimg
+    urllib.urlretrieve(imgurl,'0%s.jpg' % x)
+  File "D:\Python27\lib\urllib.py", line 98, in urlretrieve
+    return opener.retrieve(url, filename, reporthook, data)
+  File "D:\Python27\lib\urllib.py", line 245, in retrieve
+    fp = self.open(url, data)
+  File "D:\Python27\lib\urllib.py", line 210, in open
+    return self.open_unknown(fullurl, data)
+  File "D:\Python27\lib\urllib.py", line 222, in open_unknown
+    raise IOError, ('url error', 'unknown url type', type)
+IOError: [Errno url error] unknown url type: 'src=%22http'
+>>> 
+================== RESTART: D:/Python27/cangku/¼åµ°ÃÃ×Ó.py ==================
+
+Traceback (most recent call last):
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 18, in <module>
+    print gitimg(html)
+  File "D:/Python27/cangku/¼åµ°ÃÃ×Ó.py", line 11, in gitimg
+    urllib2.urlretrieve(imgurl,'0%s.jpg' % x)
+AttributeError: 'module' object has no attribute 'urlretrieve'
+>>> 
+================== RESTART: D:\Python27\cangku\chongshi.py ==================
+
+Traceback (most recent call last):
+  File "D:\Python27\cangku\chongshi.py", line 22, in <module>
+    print imglist
+NameError: name 'imglist' is not defined
+>>> 
+================== RESTART: D:\Python27\cangku\chongshi.py ==================
+['http://tb2.bdstatic.com/tb/editor/images/faceshop/1055_bear/s_1055_bear_hi.png" ><img class="BDE_Smiley3" text="\xe6\xa7\x91\xe7\x86\x8a_hi"  width="135" height="135" changedsize="false" src="http://tb2.bdstatic.com/tb/editor/images/faceshop/1055_bear/s_1055_bear_hi.png" ><img class="BDE_Smiley3" text="\xe6\xa7\x91\xe7\x86\x8a_hi"  width="135" height="135" changedsize="false" src="http://tb2.bdstatic.com/tb/editor/images/faceshop/1055_bear/s_1055_bear_hi.png" ><img class="BDE_Image" src="http://imgsrc.baidu.com/forum/w%3D580/sign=3bd129b597ef76c6d0d2fb23ad17fdf6/5f10b912c8fcc3ce1df132a79545d688d43f2075.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=f2e34a30a3c27d1ea5263bcc2bd4adaf/c2b44aed2e738bd495c04aa5a68b87d6267ff945.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=e0338434f103738dde4a0c2a831ab073/63cb0a46f21fbe09325138806c600c338744ad13.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=95cebe5485025aafd3327ec3cbecab8d/7ad0f703918fa0ec4c279c99219759ee3c6ddb46.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=c1166a22ce177f3e1034fc0540ce3bb9/b7c379310a55b319fb1a7ae144a98226cefc1746.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=a0c333bb4634970a47731027a5cbd1c0/bc0f4bfbfbedab640b5fb654f036afc379311e70.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=02f5c47565d9f2d3201124e799ed8a53/4b43fbf2b2119313c97f042462380cd791238d62.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=1cc0f78d2af5e0feee1889096c6134e5/16f41bd5ad6eddc4bd054c6f3edbb6fd53663340.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=381aa0a21a950a7b75354ecc3ad0625c/2287e950352ac65c642a9de7fcf2b21193138a73.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=769c1f060bf431adbcd243317b37ac0f/a93533fa828ba61e6cf832bb4634970a304e5914.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=3a0ef5bb92cad1c8d0bbfc2f4f3f67c4/1b4f78f0f736afc37371daf1b419ebc4b7451220.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=2986fed78cd4b31cf03c94b3b7d7276f/c1f9d72a6059252db741f890339b033b5ab5b9d4.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=4501cf94ee24b899de3c79305e071d59/0dce36d3d539b60057caea23ee50352ac65cb71a.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=4c9e62b59413b07ebdbd50003cd69113/c554564e9258d10904b24c26d658ccbf6d814dd5.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=710a3980bf99a9013b355b3e2d940a58/2ed3d539b6003af354bd39f4322ac65c1038b61b.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=69f8dadf05087bf47dec57e1c2d2575e/2d2ac65c103853438f9f62b59413b07ecb8088d6.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=79f90897cf95d143da76e42b43f18296/4f2c11dfa9ec8a135879b374f003918fa1ecc0c7.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=1eff7c905e82b2b7a79f39cc01accb0a/980a19d8bc3eb1358c41532fa11ea8d3fc1f44a4.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=3b5392b26a224f4a5799731b39f69044/5336acaf2edda3ccf5715cb406e93901203f9289.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=e6509eee27a446237ecaa56aa8237246/36dda3cc7cd98d108a9be8a5263fb80e7aec90d3.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=edc629bd8118367aad897fd51e728b68/14338744ebf81a4c0c98085dd02a6059242da6f8.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=702bb49c0bd79123e0e0947c9d355917/abde9c82d158ccbfd62a51ae1ed8bc3eb0354194.jpg', 'http://imgsrc.baidu.com/forum/w%3D580/sign=a45475667a1ed21b79c92eed9d6fddae/52ed2e738bd4b31ca4c1702f80d6277f9f2ff8a1.jpg']
+None
+>>> 
+================== RESTART: D:\Python27\cangku\chongshi.py ==================
+['http://ww4.sinaimg.cn/mw600/005vbOHfgw1f3acwtuesuj30go0go751.jpg', 'http://ww4.sinaimg.cn/mw600/005vbOHfgw1f3acrwigmcj30go0m8q7h.jpg', 'http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abk6x2wjj20u018gtkh.jpg', 'http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abjjzwwvj20qo0zkwoc.jpg', 'http://ww4.sinaimg.cn/mw600/a15b4afegw1f3abieu09xj20nt0zkad3.jpg', 'http://ww3.sinaimg.cn/mw600/6469180ajw1f3abpwdlj9j20m80tngtg.jpg', 'http://ww4.sinaimg.cn/mw600/6cca1403jw1f3a9k8cvxaj20es0g93zl.jpg', 'http://ww3.sinaimg.cn/mw600/6cca1403jw1f3a896vj8cj20cc0g7js5.jpg', 'http://ww1.sinaimg.cn/mw600/6cca1403jw1f3a81lkop1j20gk0eowfg.jpg', 'http://ww4.sinaimg.cn/mw600/6cca1403jw1f1hlwnqugwj20ga0hmq3n.jpg', 'http://ww1.sinaimg.cn/mw600/6cca1403jw1f1hlqlgik5j20g90hkgmn.jpg', 'http://ww1.sinaimg.cn/mw600/6cca1403jw1f1hlkl11rlj20ge0ggwfc.jpg', 'http://ww3.sinaimg.cn/mw600/6cca1403jw1f1hldrj7yej20g70h1dh1.jpg', 'http://ww2.sinaimg.cn/mw600/6cca1403jw1f1hl7shvk9j20os0h53zt.jpg', 'http://s.jandan.com/static/gg/tee.jpg']
+None
+>>> 
